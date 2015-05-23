@@ -12,6 +12,7 @@ Roles = new Meteor.Collection("Roles");
 
 var roles = [{
 		'type':        'team',
+		'subscribe_test':   mf("roles.subscribe_team", "I help organiiize"),
 		'icon':        'glyphicon glyphicon-bullhorn',
 		'alt_icon':    'fa fa-info-circle fa fa-connectdevelop',
 		'preset':      true,	//if true: allways available, not offered as choice in proposal

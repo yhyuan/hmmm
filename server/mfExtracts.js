@@ -1,13 +1,13 @@
 mfPkg.addNative(
 {
-  "roles.subscribe.team": {
-    "key": "roles.subscribe.team",
+  "roles.subscribe_team": {
+    "key": "roles.subscribe_team",
     "text": "I help organiiize",
     "file": "./collections/roles.js",
     "line": 15,
     "func": "unknown",
-    "ctime": 1432386224128,
-    "mtime": 1432387450260
+    "ctime": 1432389956854,
+    "mtime": 1432389956854
   },
   "roles.team.short": {
     "key": "roles.team.short",
@@ -2465,9 +2465,19 @@ mfPkg.addNative(
     "template": "editable",
     "ctime": 1432132053599,
     "mtime": 1432132053599
+  },
+  "roles.subscribe.team": {
+    "key": "roles.subscribe.team",
+    "text": "I help organiiize",
+    "file": "./collections/roles.js",
+    "line": 15,
+    "func": "unknown",
+    "ctime": 1432386224128,
+    "mtime": 1432390402285,
+    "removed": true
   }
 }, 
 {
-  "extractedAt": 1432389097142,
-  "updatedAt": 1432388269731
+  "extractedAt": 1432390402285,
+  "updatedAt": 1432390402285
 });

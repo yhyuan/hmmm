@@ -77,8 +77,8 @@
 				{{#if maySubscribe roletype.type}}
 					<button type="button" class="enrol form-control btn btn-primary no-padding" name="participant">
 						<div class="container-fluid">
-							<span class="{{roletype.icon}}"></span> &nbsp;
-							{{#with roletype}}{{roleSubscribe}}{{roletype.subscribe}}{{/with}} 
+							 <span class="{{roletype.icon}}"></span> &nbsp;
+							 {{#with roletype}}{{roleSubscribe}}{{/with}} {{roletype.subscribe_test}} 
 						</div>
 					</button>
 				{{/if}}
